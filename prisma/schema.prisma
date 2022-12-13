@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_POST_URL")
+  shadowDatabaseUrl = env("DATABASE_POST_URL")
+}
+
+model StockTick {
+  id        Int      @id @default(autoincrement())
+  f2        Float
+  f3        Float
+  f4        Float
+  f5        Int
+  f6        Float
+  f7        Float
+  f8        Float
+  f9        Float
+  f10       Float
+  f11       Float
+  f12       String
+  f13       Float
+  f14       String
+  f15       Float
+  f16       Float
+  f17       Float
+  f18       Float
+  f62       Float
+  f63       Float
+  f64       Float
+  f65       Float
+  f66       Float
+  f67       Float
+  f68       Float
+  f69       Float
+  f70       Float
+  f71       Float
+  f72       Float
+  f73       Float
+  f74       Float
+  f75       Float
+  f76       Float
+  f77       Float
+  f78       Float
+  f79       Float
+  f80       Float
+  f81       Float
+  f82       Float
+  f83       Float
+  f84       Float
+  f85       Float
+  f86       Float
+  f87       Float
+  f100      String
+  f102      String
+  f103      String
+  f104      Int
+  f105      Int
+  f124      Int
+  f128      String
+  f136      Float
+  f140      String
+  f141      Int
+  f265      String
+  f297      Int
+  CreatedAt DateTime @default(now())
+}
