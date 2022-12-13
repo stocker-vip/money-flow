@@ -35,7 +35,7 @@ async function main() {
 
     const subject = new Subject<Tick.Diff[]>();
 
-    createObserval$(false)(updateTime).subscribe(async (time)=>{
+    createObserval$(true)(updateTime).subscribe(async (time)=>{
         // if(time.split(" ")[0]!==today){
         //     if(await getBkList()){
         //         today = time.split(" ")[0];
