@@ -6,7 +6,8 @@
   "main": "build/index.js",
   "scripts": {
     "dev": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "Regan",

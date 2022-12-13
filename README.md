@@ -298,3 +298,14 @@
   }
 
 ```
+
+# 更新数据库
+`npx prisma db pull`
+`npx prisma db push`
+`npx prisma generate` // 生成client
+
+# build
+`npm run build`
+
+# start 
+`npm run start`
